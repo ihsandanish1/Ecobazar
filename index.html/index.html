@@ -7,10 +7,13 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -51,11 +54,10 @@
         <div class="col-4 d-flex gap-20">
           <img src="../image/Heart.svg" alt="">
           <img src="../image/Bag.svg" alt="">
+
           <span>Shopping cart:</span>
           <span>$57.00</span>
         </div>
-
-
       </div>
     </div>
   </div>
@@ -64,12 +66,12 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav1"
+        aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="col-md-10">
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav1">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#">Home<i class="fa-solid fa-angle-down"></i></a>
@@ -89,12 +91,14 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact us <i class="fa-solid fa-angle-down"></i></a>
+            <li><a class="nav-link" href=""> 0046-872550 <i class="fa-solid fa-phone-volume"></i></a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
     <div class="col-md-2">
-      <span><i class="fa-solid fa-phone-volume"></i>0046-872550 </span>
+
     </div>
 
 
@@ -102,41 +106,54 @@
 
 
 
-  <div class="container-fluid">
-    <div class="row pt-3">
+  <div class="container">
+    <div class="row pt-2">
       <div class="col-8 position-relative">
-       <div class="position-absolute first">
+        <div class="position-absolute text-white pt-5 pr-5">
           <h3>Fresh & Health</h3>
           <h3>Organic Food</h3>
-          <p>Red More</p>
+          <p>Sale up to <span class="bg-warning">30% OFF</span></p>
+          <p>Free shipping on all your order.</p>
+
+          <button type="button" class="btn btn-light btn-lg">Shop now <i class="fa fa-arrow-right"
+              aria-hidden="true"></i></button>
         </div>
         <img src="../image/29.png" class="img-fluid" alt="">
       </div>
-  
-      <div class="col-4">
-        <div class="row gap-3">
+
+      <div class="col-4 pt-1">
+        <div class="row">
           <div class="col-md-12 position-relative">
-            <div class="position-absolute">
-              <h3>SUMMER SALE</h3>
+            <div class="position-absolute z-2 second">
+              <h5>SUMMER SALE</h5>
               <h3>75 % OFF</h3>
               <p>Only Fruit & Vegetable</p>
-              <i class="fa fa-long-arrow-right " aria-hidden="true">Shop Now</i>
+              <p>Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
             </div>
-            <img src="../image/31.png" class="img-fluid fff" alt="">
+            <img src="../image/31.png" class="one" alt="" height="250px" width="360px">
+
           </div>
-          <div class="col-md-12">
-            <img src="../image/34.png " class="img-fluid yyy" alt="">
+          <div class="col-md-12 pt-2">
+            <div class="position-relative">
+              <div class="position-absolute position-absolute text-white ">
+                <p>Best Deal</p>
+                <h4>Special Products <br> Deal of the Month</h4>
+                <p>Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+
+              </div>
+              <img src="../image/34.png " class="" alt="" height="250px" width="360px">
+            </div>
           </div>
         </div>
-  
+
       </div>
     </div>
-  
+
   </div>
-  
-  
-  
-  <div class="container">
+
+
+
+  <div class="container mt-4">
     <div class="row">
       <div class="col-md-3">
         <i class="fa fa-truck text-success" aria-hidden="true"></i>
@@ -158,37 +175,724 @@
         <span>Customer Support 24/7</span><br>
         <span>Instant access to Support</span>
       </div>
-  
+
+    </div>
+  </div>
+
+
+  <div class="container mt-4">
+    <h2>Popular Categories</h2>
+    <div class="row">
+      <p class="text-success d-flex justify-content-end">View All <i class="fa fa-long-arrow-right"
+          aria-hidden="true"></i></p>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/1.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center"> Fresh fruit</p>
+      </div>
+      <div class="col-md-2 border border-dark-subtle ">
+        <img src="../image/6.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center">Fresh categories</p>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/11.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center">Meat & Fish</p>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/7.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center"> Snacks</p>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/28.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center"> Beverages</p>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/48.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center"> Beauty & Health</p>
+      </div>
+    </div>
+
+    <div class="row mt-1">
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/27.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center">Bread & Bakery </p>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/17.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center"> Baking Needs</p>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/14.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center"> Cooking</p>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/19.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center"> Diabetic Food</p>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/48.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center"> Dish Detergents</p>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/19.png" alt="" width="200px" height="200px">
+        <p class="d-flex justify-content-center"> Oil</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <div class="container mt-4">
+    <h2>Popular Products</h2>
+    <div class="row d-flex justify-content-between">
+      <div class="col-md-2 border border-dark-subtle">
+        <span class="bg-danger text-white">sale 50%</span>
+        <img src="../image/5.png" class=" img img-fluid " alt="" width="264px" height="327px">
+        <div class="pt-5">
+          <p>Green Apple</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/8.png" class=" img img-fluid " alt="" width="264px" height="327px">
+        <p>Fresh Indian Malta</p>
+        <p>$14.99</p><span>$20.99</span>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+      </div>
+
+      <div class="col-md-2 heart">
+        <div class="position-relative ">
+          <img src="../image/10.png" class=" img img-fluid " alt="" width="264px" height="327px">
+          <div class="pt-5">
+            <p>Chinese cabbage</p>
+            <p>$14.99</p><span>$20.99</span>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+          </div>
+          <div class="chinese-cabbage position-absolute top-5">
+            <img src="../image/Heart.png" alt=""><br><br>
+            <img src="../image/Eye 1.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-2 border border-2-dark-subtle">
+        <img src="../image/12.png" class=" img img-fluid " alt="" width="264px" height="327px">
+        <p>Green Lettuce</p>
+        <p>$14.99</p><span>$20.99</span>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/15.png" class=" img img-fluid " alt="" width="264px" height="327px">
+        <div class="pt-5">
+          <p>Eggplant</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-between mt-2">
+      <div class="col-md-2 border border-dark-subtle">
+
+        <img src="../image/32.png" class=" img img-fluid " alt="" width="264px" height="327px">
+        <div class="pt-5">
+          <p>Big Potatoes</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/30.png" class=" img img-fluid " alt="" width="264px" height="327px">
+        <div class="pt-5">
+          <p>Corn</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/22.png" class=" img img-fluid " alt="" width="264px" height="327px">
+        <div class="pt-5">
+          <p>Fresh Cauliflower</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <span class="bg-danger text-white">sale 50%</span>
+        <img src="../image/38.png" class=" img img-fluid " alt="" width="264px" height="327px">
+        <div class="pt-5">
+          <p>Green Capsicum</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-md-2 border border-dark-subtle">
+        <img src="../image/33.png" class=" img img-fluid " alt="" width="264px" height="327px">
+        <p>Green Chili</p>
+        <p>$14.99</p><span>$20.99</span>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+      </div>
     </div>
   </div>
 
 
 
 
-       
 
 
+  <div class="container mt-4">
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card-group position-relative">
+          <img src="../image/41.png" alt="" height="536px" width="424px">
+          <div class="position-absolute text-white text-center pt-5" style="width: 100%;">
+            <p>Best Deals</p>
+            <h5>Sale of the Month</h5>
+
+            <h5>&nbsp&nbsp00&nbsp :&nbsp 02&nbsp :&nbsp 18&nbsp :&nbsp 46&nbsp</h5>
+            <p>&nbsp&nbsp&nbspdays&nbsp Hour&nbsp Minuts&nbsp Second&nbsp </p>
+            <button class="rounded-pill">Shop Now <i class="fa fa-long-arrow-right " aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card-group position-relative">
+          <img src="../image/44.png" class="" alt="" height="536px" width="424px">
+          <div class="position-absolute text-white text-center pt-5" style="width: 100%;">
+            <p>85% Fat Free</p>
+            <h5>Low-Fat Meat</h5>
+            <span>Started at <p>$79.99</p></span>
+            <button class="rounded-pill">Shop Now <i class="fa fa-long-arrow-right " aria-hidden="true"></i></button>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card-group position-relative">
+          <img src="../image/45.png" class="" alt="" height="536px" width="424px">
+          <div class="position-absolute text-white text-center pt-5" style="width: 100%;">
+            <p>Summer Sale</p>
+            <h5>100% Fresh Fruit</h5>
+            <span>Up to
+              <pre>64% OFF</pre>
+            </span>
+            <button class="rounded-pill">Shop Now <i class="fa fa-long-arrow-right " aria-hidden="true"></i></button>
+
+          </div>
+        </div>
+      </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
   </div>
+
+
+  <div class="container mt-4">
+    <h2>Hot Deals</h2>
+    <div class="row">
+      <div class="col-sm-5 border border-dark-subtle position-relative">
+        <span class="rounded-pill bg-danger text-white">sale 50%</span> <span
+          class="rounded-pill bg-primary text-white">Best Sale</span>
+        <img src="../image/Image.png" class="img img-fluid" alt="">
+        <div class=" d-flex align-items-center position-absolute ms-5 ps-5">
+          <img src="../image/Heart.png" alt="">
+          <input class="rounded-pill bg-success ps-5 pe-5 " type="text">
+          <img src="../image/Eye 1.png" alt="">
+
+        </div>
+        <p class="pt-5">Green Apple</p>
+        <p>$14.99</p><span>$20.99</span>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+      </div>
+
+      <div class="col-sm-7 border border-dark-subtle">
+        <div class="row">
+          <div class="col-sm-4 border border-dark-subtle">
+            <img src="../image/15.png" class="img img-fluid" alt="">
+            <div class="pt-5">
+              <p>Chinese cabbage</p>
+              <p>$14.99</p><span>$20.99</span>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+            </div>
+          </div>
+          <div class="col-sm-4 border border-dark-subtle">
+            <img src="../image/10.png" class="img img-fluid" alt="">
+            <div class="pt-5">
+              <p>Green Lettuce</p>
+              <p>$14.99</p><span>$20.99</span>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+            </div>
+          </div>
+          <div class="col-sm-4 border border-dark-subtle">
+            <img src="../image/12.png" class="img img-fluid" alt="">
+            <p>Eggplant</p>
+            <p>$14.99</p><span>$20.99</span>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 border border-dark-subtle">
+            <img src="../image/22.png" class="img img-fluid" alt="">
+            <div class="pt-5">
+              <p>Fresh Cauliflower</p>
+              <p>$14.99</p><span>$20.99</span>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+            </div>
+          </div>
+          <div class="col-sm-4 border border-dark-subtle">
+            <img src="../image/38.png" class="img img-fluid" alt="">
+            <div class="pt-5">
+              <p>Green Capsicum</p>
+              <p>$14.99</p><span>$20.99</span>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <i class="fa fa-star text-warning" aria-hidden="true"></i>
+              <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+            </div>
+          </div>
+          <div class="col-sm-4 border border-dark-subtle">
+            <span class="bg-danger text-white">sale 50%</span>
+            <img src="../image/33.png" class="img img-fluid" alt="">
+            <p>Green Chili</p>
+            <p>$14.99</p><span>$20.99</span>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <i class="fa fa-star text-warning" aria-hidden="true"></i>
+            <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row d-flex justify-content-between">
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/32.png" class="img img-fluid" alt="">
+        <div class="pt-5">
+          <p>Potato</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/30.png" class="img img-fluid" alt="">
+        <div class="pt-5">
+          <p>cron</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/40.png" class="img img-fluid" alt="">
+        <p>Surjapur Mango</p>
+        <p>$14.99</p><span>$20.99</span>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <span class="bg-danger text-white">sale 50%</span>
+        <img src="../image/24.png" class="img img-fluid" alt="">
+        <div class="pt-5">
+          <p>Red Chili</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/37.png" class="img img-fluid" alt="">
+        <div class="pt-4">
+          <p>Red Tomatos</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-sm-12">
+        <img src="../image/Discount Bannar (1).png" class="black-card" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container mt-4">
+    <h2>Featured Products</h2>
+    <div class="row d-flex justify-content-between">
+      <div class="col-sm-2 border border-dark-subtle">
+        <span class="bg-danger text-white">sale 50%</span>
+        <img src="../image/5.png" class="img img-fluid" alt="">
+        <div class="pt-4">
+          <p>Green Appple</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/8.png" class="img img-fluid" alt="">
+        <div class="pt-1">
+          <p>Fresh orange</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/15.png" class="img img-fluid" alt="">
+        <div class="pt-5">
+          <p> Cauliflower</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/10.png" class="img img-fluid" alt="">
+        <div class="pt-5">
+          <p>Griegths</p>
+          <p>$14.99</p><span>$20.99</span>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <i class="fa fa-star text-warning" aria-hidden="true"></i>
+          <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/12.png" class="img img-fluid" alt="">
+        <p>Cagibe</p>
+        <p>$14.99</p><span>$20.99</span>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <img class="rounded-circle bg-dark-subtle" src="../image/Bag.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container mt-4">
+    <h2 class="d-flex justify-content-center">Latest News</h2>
+    <div class="row d-flex justify-content-between">
+      <div class="col-sm-4 border border-dark-subtle">
+        <img src="../image/50.png" class="img img-fluid" alt="">
+        <p> Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.</p>
+        <span class="text-success">Read More<i class="fa fa-arrow-circle-right text-success"
+            aria-hidden="true"></i></span>
+      </div>
+      <div class="col-sm-4 border border-dark-subtle">
+        <img src="../image/0.png" class="img img-fluid" alt="">
+        <p>Eget lobortis lorem lacinia. Vivamus pharetra semper,</p>
+        <span class="text-success">Read More<i class="fa fa-arrow-circle-right text-success"
+            aria-hidden="true"></i></span>
+      </div>
+      <div class="col-sm-4 border border-dark-subtle">
+        <img src="../image/3.png" class="img img-fluid" alt="">
+        <p>Maecenas blandit risus elementum mauris malesuada.</p>
+        <span class="text-success">Read More<i class="fa fa-arrow-circle-right text-success"
+            aria-hidden="true"></i></span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="container mt-4">
+    <h3 class="d-flex justify-content-center">Client Testimonials</h3>
+    <div class="row">
+      <div class="col-sm-4 border border-dark-subtle">
+        <img src="../image/Vector.png" alt="">
+        <p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum,
+          bibendum cursus velit sodales. Donec sed neque eget</p>
+        <img src="../image/Image.jpg" alt="">
+        <p>Robert Fox</p>
+        <p>Customer</p>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+      </div>
+      <div class="col-sm-4 border border-dark-subtle">
+        <img src="../image/Vector.png" alt="">
+        <p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum,
+          bibendum cursus velit sodales. Donec sed neque eget</p>
+        <img src="../image/Image (1).png" alt="">
+        <p>Dianne Russell</p>
+        <p>Customer</p>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+      </div>
+      <div class="col-sm-4 border border-dark-subtle">
+        <img src="../image/Vector.png" alt="">
+        <p>Eleanor Pena</p>
+        <p>Customer</p>
+        <p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum,
+          bibendum cursus velit sodales. Donec sed neque eget</p>
+        <img src="../image/Image (2).png" alt="">
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-sm-2">
+        <img src="../image/mango-1.png" alt="">
+      </div>
+      <div class="col-sm-2">
+        <img src="../image/Group (1).png" alt="">
+      </div>
+      <div class="col-sm-2">
+        <img src="../image/Group (2).png" alt="">
+      </div>
+      <div class="col-sm-2">
+        <img src="../image/bookoff-corporation-logo.png" alt="">
+      </div>
+      <div class="col-sm-2">
+        <img src="../image/food.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-4">
+    <h2 class="d-flex justify-content-center">Follow us on Instagram</h2>
+    <div class="row d-flex justify-content-between">
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/18.png" class="img img-fluid" alt="">
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/23.png" class="img img-fluid" alt="">
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/25.png" class="img img-fluid" alt="">
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/21.png" class="img img-fluid" alt="">
+      </div>
+      <div class="col-sm-2 border border-dark-subtle">
+        <img src="../image/16.png" class="img img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container mt-4 bg-dark-subtle">
+    <div class="row">
+      <div class="col-sm-4">
+        <h5>Subcribe our Newsletter</h5>
+        <p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna.</p>
+      </div>
+      <div class="col-sm-6 d-flex align-items-center">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="your email address" aria-label="Search"
+            aria-describedby="searchButton">
+          <div class="input-group-append">
+            <button class="btn btn-success text-white" type="button" id="searchButton">Subscribe</button>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-2 d-flex align-items-center justify-content-around">
+        <img src="../image/facebook 1.png" class="bg-dark" alt="">
+        <img src="../image/pinterest 1.png" alt="">
+        <img src="../image/twitter 1.png" alt="">
+        <img src="../image/instagram 1.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="container mt-4 bg-dark text-white"><br><br>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <p> <img src="../image/plant 1.jpg" alt="">Ecobazar</p>
+        <p>Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p>
+        <p class="d-flex">(219) 555-0114 or Proxy@gmail.com</p>
+      </div>
+      <div class="col-sm-2">
+        <p>My Account</p>
+        <p>My Account</p>
+        <p>Order History</p>
+        <p>Shoping Cart</p>
+        <p>Wishlist</p>
+      </div>
+      <div class="col-sm-2">
+        <p>Helps</p>
+        <p>Contact</p>
+        <p>Faqs</p>
+        <p>Terms & Condition</p>
+        <p>Privacy Policy</p>
+
+      </div>
+      <div class="col-sm-2">
+        <p>Proxy</p>
+        <p>About</p>
+        <p>Shop</p>
+        <p>Product</p>
+        <p>Track Order</p>
+      </div>
+      <div class="col-sm-2">
+        <p>Categories</p>
+        <p>Fruit & Vegetables</p>
+        <p>Meat & Fish</p>
+        <p>Bread & Bakery</p>
+        <p>Beauty & Health</p>
+      </div>
+    </div>
+
+
+
+    <hr>
+    <div class="d-flex justify-content-end ">
+
+      <span class="border border-dark-subtle"><img src="../image/ApplePay.png" alt=""></span>
+      <span class="border border-dark-subtle"><img src="../image/Mastercard.png" alt=""></span>
+      <span class="border border-dark-subtle"><img src="../image/visa-logo.png" alt=""></span>
+      <span class="border border-dark-subtle"><img src="../image/Discover.png" alt=""></span>
+      <span class="border border-dark-subtle"><i class="fa fa-lock" aria-hidden="true"></i>secure <br> Payment</span>
+
+    </div>
+    <br><br>
+  </div>
+  <br><br> <br><br>
+
+
+
+
+
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>

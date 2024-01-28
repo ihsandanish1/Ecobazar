@@ -1,0 +1,22 @@
+.chinese-cabbage {
+    left: 180px;
+    top: 4px;
+}
+
+.chinese-cabbage {
+    display: none;
+}
+
+.heart:hover .chinese-cabbage {
+    display: block;
+}
+
+.heart:hover {
+    border: 2px solid rgb(5, 243, 5);
+}
+/* .green-apple{
+    display: none;
+}
+.green:hover .gg-green-apple{
+    display: block;
+} */

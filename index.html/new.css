@@ -1,0 +1,23 @@
+/* .bb {
+    display: flex;
+    width: 371px;
+    padding: 10px 32px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 43px;
+    gap: 12px;
+    border-radius: 43px;
+    background: var(--Branding-Success, #00B207);
+}
+
+.eye {
+bottom: 2px;
+    /* left:-4px; */
+    /* top: 3px; */
+    
+
+
+/* .cart{
+    left: -16px;
+    top: -41px;
+} */
